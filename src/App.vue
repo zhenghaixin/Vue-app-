@@ -16,6 +16,9 @@ export default {
   created(){
 console.log(2)
   },
+  beforeMount(){
+    console.log(2)
+  },
   components:{
     Tab
   }
