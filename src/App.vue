@@ -10,6 +10,9 @@
   import Tab from './base/Tab'
 export default {
   name: 'App',
+  beforeCreate(){
+    console.log(1)
+  },
   components:{
     Tab
   }
