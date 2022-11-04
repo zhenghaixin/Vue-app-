@@ -13,6 +13,9 @@ export default {
   beforeCreate(){
     console.log(1)
   },
+  created(){
+console.log(2)
+  },
   components:{
     Tab
   }
