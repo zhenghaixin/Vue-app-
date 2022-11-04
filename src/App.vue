@@ -19,6 +19,9 @@ console.log(2)
   beforeMount(){
     console.log(2)
   },
+  mounted(){
+console.log(3)
+  },
   components:{
     Tab
   }
